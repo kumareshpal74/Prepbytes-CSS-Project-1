@@ -1,0 +1,462 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+   
+}
+
+
+.upper-container{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.upper-container1{
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#lists{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    width: 30%;
+    height:100% ;
+    padding-top: 20px;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlist{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+
+.card1{
+    margin-top: 10px;
+    border: 2px solid rgb(228, 13, 78);
+    height: 45vh;
+    width: 17%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin-left: 380px;
+}
+
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: blue;
+    border-bottom: 1px solid rgb(2, 2, 2);
+}
+
+.div2{
+width: 90%;
+height: 10%;
+font-size: 20px;
+color: aqua;
+text-align: right;
+position: absolute;
+top: 35%;
+font-weight: bold;
+text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 25px;
+}
+
+#check{
+    size: 25px;
+    height: 15px;
+    margin-left: 33px;
+
+}
+
+.card2{
+    margin-top: 5px;
+    border: 2px solid green;
+    height: 45vh;
+    width: 102%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin-left: 250px;
+}
+
+.div22{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: rgb(32, 10, 155);
+    border-bottom: 1px solid rgba(15, 10, 10, 0.781);
+}
+
+
+.div23{
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: aqua;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.div24{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 25px;
+}
+
+#check2{
+    size: 25px;
+    height: 15px;
+    margin-left: 33px;
+}
+
+
+
+.card3{
+    margin-top: -300px;
+    border: 2px solid green;
+    height: 45vh;
+    width: 103%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    margin-left: 510px;
+}
+
+.div26{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: rgb(15, 15, 216);
+    border-bottom: 1px solid rgb(10, 9, 9);
+}
+
+.div27{
+    width:90%;
+    height: 10%;
+    font-size: 20px;
+    color: aqua;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+.div28{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 25px;
+}
+
+#check3{
+    size: 25px;
+    height: 15px;
+    margin-left: 33px;
+}
+
+
+.notshow{
+filter: blur(2px);
+-webkit-filter: blur(2px);
+}
+
+
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top: 40%;
+    height: 20vh;
+    width: 27%;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 18px;
+    box-shadow: 3px 3px 10px grey;
+    background-color: white;
+}
+#add-new{
+    opacity: 0.7;
+    font-size: 20px;
+
+
+}
+
+.pop-upbar{
+    margin-top: 6px;
+    border-radius: 5px;
+    width: 70%;
+    height: 2em;
+    border: 2px solid red;
+    box-shadow: 1px 1px 3px rgb(121, 117, 117);
+}
+
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    left: 130px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-upper-container{
+    width: 76%;
+    height: 40%;
+    margin: 50px auto;
+    position: absolute;
+    padding-left: 45%;
+    padding-right: 1%;
+}
+
+#trip-to-Paris{
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+
+.container4{
+   padding-right: 0%;
+   left: 10px;
+    right: 0%;
+}
+
+
+.circle{
+    width: 95%;
+    height: 85%;
+    position: absolute;
+    padding-left: 577px;
+    padding-right: 20px;
+    padding-top: 16px;
+    box-sizing: 10%;
+    left: 5%;
+}
+
+
+    
+
+
+
+
+.back{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 25px;
+    padding-right: 10px;
+    font: size 2.5rem;
+    right: -47%;
+}
+
+
+
+
+
+
+.card4{
+    margin-top: 10px;
+    border: 2px solid rgb(228, 13, 78);
+    height: 45vh;
+    width: 73%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+    margin-left: -33px; 
+    margin-top: 30%;
+}
+
+.div10{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 75%;
+    text-align: left;
+    height: 15%;
+    color: blue;
+    border-bottom: 1px solid rgb(2, 2, 2);
+}
+
+.div11{
+    width: 81%;
+    height: 10%;
+    font-size: 20px;
+    color: aqua;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+    }
+
+    .div12{
+        width: 90%;
+        height: 10%;
+        position: absolute;
+        top: 52%;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    #check5{
+        size: 25px;
+        height: 15px;
+        margin-left: 74px;
+    
+    }
+    
+
+    .div13{
+        width: 19%;
+        height:100% ;
+        padding-top: 20px;
+        position:absolute;
+        top: 71px;
+        right: 0px;
+    }
+
+    .not-show2{
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+    }
+
+
+    .pop-up4{
+        position: absolute;
+        left: 40%;
+        top: 120%;
+        height: 22vh;
+        width: 27%;
+        border: 1.5px solid red;
+        border-radius: 10px;
+        color: red;
+        font-size: 18px;
+        box-shadow: 3px 3px 10px gray;
+        background-color: white;
+        padding: 3px;
+    }
+
+    #add-new5{
+        opacity: 0.9;
+        font-size: 17px;
+    }
+
+    .pop-upbar6{
+        margin-top: 20px;
+        border-radius: 4px;
+        height: 85%;
+        width: 67%;
+        border: 1.5px solid red;
+        box-shadow: 1px 1px 3px gray;
+    }
+
+    .pop-up-button7{
+        width: 25%;
+        height: 20px;
+        margin-top: 14px;
+        margin-left: 126px;
+        color: white;
+        background-color: red;
+        border-radius: 20px;
+        border: none;
+        padding-left: 10px;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
